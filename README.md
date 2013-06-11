@@ -22,7 +22,9 @@ Your TinyMCE init() method should contain the following value:
 ```javascript
 tinymce.init({
     ...
-    imageupload_url: '/my/uploader/path',
+    imageupload_url: '/my/uploader/path', // PHP (or other server side script)
+    plugins: 'imageupload', // and your other plugins
+    toolbar1: 'imageupload' // and your others
     ...
 });
 ```
