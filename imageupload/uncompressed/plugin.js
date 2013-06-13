@@ -117,7 +117,7 @@
             ed.addButton('imageupload', {
                 title : 'Image Upload',
                 cmd : 'mceImageUpload',
-                image : url + '/img/icon.gif'
+                image : url + '/img/icon.png'
             });
         },
 
