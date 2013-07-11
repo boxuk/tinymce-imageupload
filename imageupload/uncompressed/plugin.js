@@ -1,6 +1,7 @@
 (function() {
     tinymce.create('tinymce.plugins.ImageUploadPlugin', {
         init : function(ed, url) {
+            url = tinyMCE.activeEditor.getParam('imageupload_rel') || url;
             var imageUploadUrl = tinyMCE.activeEditor.getParam('imageupload_url');
             var head = document.getElementsByTagName('body')[0];
             var css = document.createElement('link');                       
