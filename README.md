@@ -23,6 +23,7 @@ Your TinyMCE init() method should contain the following value:
 tinymce.init({
     ...
     imageupload_url: '/my/uploader/path', // PHP (or other server side script)
+    // imageupload_rel: 'http://cdn.somewhere.com/media/tinymce-plugin/imageupload', // use if not installed in plugin folder.
     plugins: 'imageupload', // and your other plugins
     toolbar1: 'imageupload' // and your others
     ...
