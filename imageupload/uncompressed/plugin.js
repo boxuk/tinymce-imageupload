@@ -17,6 +17,7 @@
                 
                 var showImageUploadError = function(msg) {
                     $('.imageUploadError').html(msg).show();
+                    removeForeground();
                 };
                 
                 var removeForeground = function() {
