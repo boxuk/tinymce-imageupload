@@ -52,4 +52,6 @@ An unknown error message is produced with this:
 {"error":"unknown"}
 ```
 
+## Known Issues ##
 
+The jquery.iframe-post-form.js script commonly available fails to parse a JSON response in Chrome. This is mainly because chrome wraps the returned text in a 'pre' tag. Its a simple one line fix to the script, .html() is changed .text(). You can get the fixed script here - https://github.com/worldspawn/jquery.iframe-post-form
